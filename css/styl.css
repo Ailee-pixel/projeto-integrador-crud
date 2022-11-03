@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(143, 142, 142);
+}
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 60px;
+}
+.card{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: darkgray;
+    padding: 30px;
+    border-radius: 5px;
+}
+.card-top{
+    text-align: center;
+}
+.imglogin{
+    border-radius: 80px;
+    width: 25%;
+   }
+.title{
+    color: darkblue;
+}
+button{
+    align-items: center;
+}

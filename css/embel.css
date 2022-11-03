@@ -1,0 +1,73 @@
+#anim-but{
+    border-radius: 4px;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#anim-but span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.1s;
+  }
+
+#anim-but span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.1s;
+  }
+
+  #anim-but:hover span {
+    padding-right: 25px;
+  }
+
+  #anim-but:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+ /*Botão Adicionar*/ 
+
+  #anim-but-add{
+    border-radius: 4px;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 600px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#anim-but-add span:after {
+    content: '+';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.1s;
+  }
+
+#anim-but-add span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.1s;
+  }
+
+  #anim-but-add:hover span {
+    padding-right: 25px;
+  }
+
+  #anim-but-add:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
